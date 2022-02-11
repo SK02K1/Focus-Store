@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📷</text></svg>"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://focus-ui.netlify.app/css/components.css"
+    />
+    <link rel="stylesheet" href="../css/product.css" />
+    <title>Products | Focus Store</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo">
+        <a href="#">FS.</a>
+      </div>
+
+      <ul role="list" class="links">
+        <li>
+          <a class="nav-link" href="#">
+            <div class="icon-badge">
+              <img
+                class="icon"
+                src="../assets/icons/cart.svg"
+                alt="cart icon"
+              />
+              <div>0</div>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a class="nav-link" href="#">
+            <div class="icon-badge">
+              <img
+                class="icon"
+                src="../assets/icons/wishlist.svg"
+                alt="wishlist"
+              />
+              <div>0</div>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a class="nav-link" href="#">
+            <div class="icon-badge">
+              <img
+                class="icon"
+                src="../assets/icons/user.svg"
+                alt="user-profile icon"
+              />
+            </div>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="wrapper">
+      <div class="search-bar">
+        <label for="search">
+          <img
+            class="search-bar-icon"
+            src="../assets/icons/search.svg"
+            alt="search icon"
+          />
+        </label>
+        <input
+          id="search"
+          type="text"
+          autocomplete="off"
+          placeholder="Search products and more"
+        />
+      </div>
+      <div class="filter-mobile">
+        <div class="filter-header">
+          <div>
+            <span class="material-icons-outlined icon-filter">
+              filter_list
+            </span>
+            <span>Filter</span>
+          </div>
+          <span class="material-icons-outlined icon-expand"> expand_less </span>
+        </div>
+        <div class="filter-body">
+          <div class="filter-section">
+            <h2 class="text-base">Category</h2>
+            <label for="Mirrorless-Cameras">
+              <input
+                type="checkbox"
+                name="Mirrorless-Cameras"
+                id="Mirrorless-Cameras"
+              />
+              Mirrorless Cameras
+            </label>
+            <label for="Medium-Format-Cameras">
+              <input
+                type="checkbox"
+                name="Medium-Format-Cameras"
+                id="Medium-Format-Cameras"
+              />
+              Medium Format Cameras
+            </label>
+            <label for="Action-Cameras">
+              <input
+                type="checkbox"
+                name="Action-Cameras"
+                id="Action-Cameras"
+              />
+              Action Cameras
+            </label>
+          </div>
+          <div class="filter-section">
+            <h2 class="text-base">Rating</h2>
+            <label for="4-stars-&-above">
+              <input type="radio" name="rating" id="4-stars-&-above" />
+              4 stars & above
+            </label>
+            <label for="3-stars-&-above">
+              <input type="radio" name="rating" id="3-stars-&-above" />
+              3 stars & above
+            </label>
+            <label for="2-stars-&-above">
+              <input type="radio" name="rating" id="2-stars-&-above" />
+              2 stars & above
+            </label>
+            <label for="1-star-&-above">
+              <input type="radio" name="rating" id="1-star-&-above" />
+              1 star & above
+            </label>
+          </div>
+          <div class="filter-section">
+            <h2 class="text-base">Sort by</h2>
+            <label for="low-to-high">
+              <input type="radio" name="sort-by-price" id="low-to-high" />
+              Price - Low to High
+            </label>
+            <label for="high-to-low">
+              <input type="radio" name="sort-by-price" id="high-to-low" />
+              Price - High to Low
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="../scripts/filter.js"></script>
+  </body>
+</html>

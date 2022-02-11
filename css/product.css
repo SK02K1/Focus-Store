@@ -1,0 +1,58 @@
+@import url(./shared/navbar.css);
+@import url(./shared/wrapper.css);
+
+.filter-mobile {
+  border: 1px solid var(--black);
+  position: fixed;
+  bottom: 0.5rem;
+  width: 95%;
+  background-color: #fff;
+}
+
+.filter-header,
+.filter-header > div {
+  display: flex;
+  align-items: center;
+}
+
+.filter-header {
+  background-color: var(--gray);
+  color: var(--white);
+  justify-content: space-between;
+  padding: 0.5rem 1.5rem;
+}
+
+.icon-filter {
+  margin-right: 0.5rem;
+}
+
+.icon-expand {
+  cursor: pointer;
+  transition: transform 100ms ease;
+}
+
+.filter-body {
+  height: 0;
+  overflow: hidden;
+}
+
+.filter-section {
+  padding: 1rem 2rem;
+}
+
+.filter-body label {
+  display: block;
+  margin: 0.5rem 0rem;
+}
+
+.filter-body input {
+  margin-right: 0.5rem;
+}
+
+.reveal-filter-tray {
+  height: min-content;
+}
+
+.toggle-expand {
+  transform: rotate(180deg);
+}

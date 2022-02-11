@@ -24,6 +24,7 @@
       <div class="logo">
         <a href="#">FS.</a>
       </div>
+
       <ul role="list" class="links">
         <li>
           <a class="nav-link" href="#">
@@ -58,20 +59,33 @@
         </li>
       </ul>
     </nav>
-    <div class="search-bar">
-      <label for="search">
-        <img
-          class="search-bar-icon"
-          src="./assets/icons/search.svg"
-          alt="search icon"
+
+    <div class="wrapper">
+      <div class="search-bar">
+        <label for="search">
+          <img
+            class="search-bar-icon"
+            src="./assets/icons/search.svg"
+            alt="search icon"
+          />
+        </label>
+        <input
+          id="search"
+          type="text"
+          autocomplete="off"
+          placeholder="Search products and more"
         />
-      </label>
-      <input
-        id="search"
-        type="text"
-        autocomplete="off"
-        placeholder="Search products and more"
-      />
+      </div>
+
+      <header class="hero-section">
+        <div class="overlay">
+          <h1 class="hero-title">Focus Store</h1>
+          <p class="hero-description">
+            Marketplace for filmmakers and photographers
+          </p>
+        </div>
+        <img src="./assets/banner/hero.jpeg" alt="hero banner" />
+      </header>
     </div>
   </body>
 </html>

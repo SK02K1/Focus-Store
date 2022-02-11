@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📷</text></svg>"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://focus-ui.netlify.app/css/components.css"
+    />
+    <link rel="stylesheet" href="./css/home.css" />
+    <title>Home | Focus Store</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo">
+        <a href="#">FS.</a>
+      </div>
+
+      <ul role="list" class="links">
+        <li>
+          <a class="nav-link" href="#">
+            <div class="icon-badge">
+              <img class="icon" src="./assets/icons/cart.svg" alt="cart icon" />
+              <div>0</div>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a class="nav-link" href="#">
+            <div class="icon-badge">
+              <img
+                class="icon"
+                src="./assets/icons/wishlist.svg"
+                alt="wishlist"
+              />
+              <div>0</div>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a class="nav-link" href="#">
+            <div class="icon-badge">
+              <img
+                class="icon"
+                src="./assets/icons/user.svg"
+                alt="user-profile icon"
+              />
+            </div>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="wrapper">
+      <div class="search-bar">
+        <label for="search">
+          <img
+            class="search-bar-icon"
+            src="./assets/icons/search.svg"
+            alt="search icon"
+          />
+        </label>
+        <input
+          id="search"
+          type="text"
+          autocomplete="off"
+          placeholder="Search products and more"
+        />
+      </div>
+
+      <header class="hero-section">
+        <div class="overlay">
+          <h1 class="hero-title">Focus Store</h1>
+          <p class="hero-description">
+            Marketplace for filmmakers and photographers
+          </p>
+        </div>
+        <img src="./assets/hero section/hero-banner.jpeg" alt="hero banner" />
+      </header>
+
+      <h2 class="text-xl text-center m-xl-tb">Featured category</h2>
+
+      <div class="grid-container auto m-md-tb">
+        <a href="#" class="category-card">
+          <div class="overlay">
+            <h2>Drones</h2>
+          </div>
+          <img src="./assets/category/drone.jpeg" alt="drone" />
+        </a>
+        <a href="#" class="category-card">
+          <div class="overlay">
+            <h2>Gimbals</h2>
+          </div>
+          <img src="./assets/category/gimbal.jpeg" alt="gimbal" />
+        </a>
+        <a href="#" class="category-card">
+          <div class="overlay">
+            <h2>Cameras</h2>
+          </div>
+          <img src="./assets/category/camera.jpeg" alt="camera" />
+        </a>
+        <a href="#" class="category-card">
+          <div class="overlay">
+            <h2>Lenses</h2>
+          </div>
+          <img src="./assets/category/lenses.jpeg" alt="lenses" />
+        </a>
+      </div>
+    </div>
+  </body>
+</html>

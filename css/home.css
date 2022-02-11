@@ -1,0 +1,75 @@
+@import url(./shared/navbar.css);
+@import url(./shared/wrapper.css);
+
+.hero-section {
+  max-height: 70vh;
+  margin: 2rem 0;
+  border-radius: var(--br-sm);
+  position: relative;
+  overflow: hidden;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(0deg, #00000088 30%, #ffffff44 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: var(--white);
+}
+
+.hero-title,
+.hero-description {
+  margin: 0.5rem 0rem;
+}
+
+.hero-title {
+  line-height: 1.2rem;
+}
+
+.hero-description {
+  letter-spacing: 1.05px;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.category-card {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  max-height: 20rem;
+  border-radius: var(--br-sm);
+  cursor: pointer;
+  transition: transform 300ms ease;
+}
+
+.category-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.category-card:hover {
+  transform: scale(1.04);
+}
+
+@media screen and (min-width: 768px) {
+  .hero-title,
+  .hero-description {
+    margin: 1rem 0rem;
+  }
+
+  .hero-title {
+    font-size: 2.5rem;
+  }
+
+  .hero-description {
+    font-size: 1.4rem;
+  }
+}

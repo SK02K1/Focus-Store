@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📷</text></svg>"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://focus-ui.netlify.app/css/components.css"
+    />
+    <link rel="stylesheet" href="../css/product.css" />
+    <title>Drones | Focus Store</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo">
+        <a href="#">FS.</a>
+      </div>
+
+      <ul role="list" class="links">
+        <li>
+          <a class="nav-link" href="#">
+            <div class="icon-badge">
+              <img
+                class="icon"
+                src="../assets/icons/cart.svg"
+                alt="cart icon"
+              />
+              <div>0</div>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a class="nav-link" href="#">
+            <div class="icon-badge">
+              <img
+                class="icon"
+                src="../assets/icons/wishlist.svg"
+                alt="wishlist"
+              />
+              <div>0</div>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a class="nav-link" href="#">
+            <div class="icon-badge">
+              <img
+                class="icon"
+                src="../assets/icons/user.svg"
+                alt="user-profile icon"
+              />
+            </div>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="wrapper">
+      <div class="search-bar">
+        <label for="search">
+          <img
+            class="search-bar-icon"
+            src="../assets/icons/search.svg"
+            alt="search icon"
+          />
+        </label>
+        <input
+          id="search"
+          type="text"
+          autocomplete="off"
+          placeholder="Search products and more"
+        />
+      </div>
+      <div class="filter-mobile">
+        <div class="filter-header">
+          <div>
+            <span class="material-icons-outlined icon-filter">
+              filter_list
+            </span>
+            <span>Filter</span>
+          </div>
+          <span class="material-icons-outlined icon-expand"> expand_less </span>
+        </div>
+        <div class="filter-body">
+          <div class="filter-section">
+            <h2 class="text-base">Category</h2>
+            <label for="Drones">
+                <input
+                  type="checkbox"
+                  name="Drones"
+                  id="Drones"
+                />
+                Drones
+              </label>
+              <label for="Drone-Filters">
+                <input
+                  type="checkbox"
+                  name="Drone-Filters"
+                  id="Drone-Filters"
+                />
+                  Drone Filters
+              </label>
+              <label for="Drone-Accessories">
+                <input
+                  type="checkbox"
+                  name="Drone-Accessories"
+                  id="Drone-Accessories"
+                />
+                Drone Accessories
+              </label>
+          </div>
+          <div class="filter-section">
+            <h2 class="text-base">Rating</h2>
+            <label for="4-stars-&-above">
+              <input type="radio" name="rating" id="4-stars-&-above" />
+              4 stars & above
+            </label>
+            <label for="3-stars-&-above">
+              <input type="radio" name="rating" id="3-stars-&-above" />
+              3 stars & above
+            </label>
+            <label for="2-stars-&-above">
+              <input type="radio" name="rating" id="2-stars-&-above" />
+              2 stars & above
+            </label>
+            <label for="1-star-&-above">
+              <input type="radio" name="rating" id="1-star-&-above" />
+              1 star & above
+            </label>
+          </div>
+          <div class="filter-section">
+            <h2 class="text-base">Sort by</h2>
+            <label for="low-to-high">
+              <input type="radio" name="sort-by-price" id="low-to-high" />
+              Price - Low to High
+            </label>
+            <label for="high-to-low">
+              <input type="radio" name="sort-by-price" id="high-to-low" />
+              Price - High to Low
+            </label>
+          </div>
+        </div>
+      </div>
+      <div class="main-wrapper">
+        <aside class="sidebar-filter">
+          <div class="filter-section">
+            <h2 class="text-base">Category</h2>
+            <label for="Drones">
+              <input
+                type="checkbox"
+                name="Drones"
+                id="Drones"
+              />
+              Drones
+            </label>
+            <label for="Drone-Filters">
+              <input
+                type="checkbox"
+                name="Drone-Filters"
+                id="Drone-Filters"
+              />
+                Drone Filters
+            </label>
+            <label for="Drone-Accessories">
+              <input
+                type="checkbox"
+                name="Drone-Accessories"
+                id="Drone-Accessories"
+              />
+              Drone Accessories
+            </label>
+          </div>
+          <div class="filter-section">
+            <h2 class="text-base">Rating</h2>
+            <label for="4-stars-&-above">
+              <input type="radio" name="rating" id="4-stars-&-above" />
+              4 stars & above
+            </label>
+            <label for="3-stars-&-above">
+              <input type="radio" name="rating" id="3-stars-&-above" />
+              3 stars & above
+            </label>
+            <label for="2-stars-&-above">
+              <input type="radio" name="rating" id="2-stars-&-above" />
+              2 stars & above
+            </label>
+            <label for="1-star-&-above">
+              <input type="radio" name="rating" id="1-star-&-above" />
+              1 star & above
+            </label>
+          </div>
+          <div class="filter-section">
+            <h2 class="text-base">Sort by</h2>
+            <label for="low-to-high">
+              <input type="radio" name="sort-by-price" id="low-to-high" />
+              Price - Low to High
+            </label>
+            <label for="high-to-low">
+              <input type="radio" name="sort-by-price" id="high-to-low" />
+              Price - High to Low
+            </label>
+          </div>
+        </aside>
+        <main class="main-content grid-container auto">
+          <div class="card">
+            <span class="material-icons-outlined card-icon-like">
+              favorite_border
+            </span>
+            <div class="card-header m-xs-tb">
+              <img
+                class="card-img m-xs-tb"
+                src="../assets/product/drones/DJI-Mavic-3.jpeg"
+                alt="..."
+              />
+            </div>
+            <div class="card-body m-xs-tb">
+              <h2 class="item-price m-xs-tb">$2,199.00 USD</h2>
+              <h3 class="card-title m-xs-tb">DJI Mavic 3</h3>
+            </div>
+            <div class="card-footer m-xs-tb">
+              <a class="btn btn-primary card-btn" href="#">Add to cart</a>
+            </div>
+          </div>
+          <div class="card">
+            <span class="material-icons-outlined card-icon-like">
+              favorite_border
+            </span>
+            <div class="card-header m-xs-tb">
+              <img
+                class="card-img m-xs-tb"
+                src="../assets/product/drones/DJI-Mini-SE.jpeg"
+                alt="..."
+              />
+            </div>
+            <div class="card-body m-xs-tb">
+              <h2 class="item-price m-xs-tb">$299.00 USD</h2>
+              <h3 class="card-title m-xs-tb">DJI Mini SE Compact Drone</h3>
+            </div>
+            <div class="card-footer m-xs-tb">
+              <a class="btn btn-primary card-btn" href="#">Add to cart</a>
+            </div>
+          </div>
+          <div class="card">
+            <span class="material-icons-outlined card-icon-like">
+              favorite_border
+            </span>
+            <div class="card-header m-xs-tb">
+              <img
+                class="card-img m-xs-tb"
+                src="../assets/product/drones/DJI-Mavic-3-propeller-guard.jpeg"
+                alt="..."
+              />
+            </div>
+            <div class="card-body m-xs-tb">
+              <h2 class="item-price m-xs-tb">$49.00 USD</h2>
+              <h3 class="card-title m-xs-tb">DJI Mavic 3 Propeller Guard</h3>
+            </div>
+            <div class="card-footer m-xs-tb">
+              <a class="btn btn-primary card-btn" href="#">Add to cart</a>
+          </div>
+        </main>
+      </div>
+    </div>
+    <script src="../scripts/filter.js"></script>
+  </body>
+</html>

@@ -1,0 +1,10 @@
+@import url(./shared/navbar.css);
+@import url(./shared/wrapper.css);
+
+.main-content {
+  padding-bottom: 8rem;
+}
+
+.card-icon-like {
+  color: var(--clr-accent-500);
+}

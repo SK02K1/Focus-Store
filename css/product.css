@@ -67,6 +67,13 @@
   display: none;
 }
 
+.filter-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 0.5rem;
+}
+
 .sidebar-filter .filter-section {
   padding-left: 0;
 }
@@ -74,6 +81,16 @@
 .main-content {
   flex-grow: 1;
   padding-bottom: 8rem;
+}
+
+.slider {
+  width: 100%;
+}
+
+.slider-range {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 @media screen and (min-width: 600px) {

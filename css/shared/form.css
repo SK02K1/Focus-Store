@@ -9,7 +9,7 @@
   width: 90%;
 }
 
-.form a {
+.form-link {
   color: var(--clr-primary-400);
   display: flex;
   justify-content: center;
@@ -17,7 +17,7 @@
   transition: color 200ms ease-in-out;
 }
 
-.form a:hover {
+.form-link:hover {
   color: var(--clr-primary-500);
 }
 

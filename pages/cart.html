@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📷</text></svg>"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://focus-ui.netlify.app/css/components.css"
+    />
+    <link rel="stylesheet" href="../css/cart.css" />
+    <title>Cart | Focus Store</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo">
+        <a href="../index.html">FS.</a>
+      </div>
+
+      <ul role="list" class="links">
+        <li>
+          <a class="nav-link" href="./cart.html">
+            <div class="icon-badge">
+              <img
+                class="icon"
+                src="../assets/icons/cart.svg"
+                alt="cart icon"
+              />
+              <div>3</div>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a class="nav-link" href="./wishlist.html">
+            <div class="icon-badge">
+              <img
+                class="icon"
+                src="../assets/icons/wishlist.svg"
+                alt="wishlist"
+              />
+              <div>5</div>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a class="nav-link" href="./signup.html">
+            <div class="icon-badge">
+              <img
+                class="icon"
+                src="../assets/icons/user.svg"
+                alt="user-profile icon"
+              />
+            </div>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="wrapper">
+      <main class="main-content">
+        <h1 class="text-lg text-center m-lg-tb">My Cart (3)</h1>
+        <div class="content-wrapper">
+          <div class="cart-items grid-container auto">
+            <div class="card">
+              <div class="card-header m-xs-tb">
+                <img
+                  class="card-img m-xs-tb"
+                  src="../assets/product/lenses/Moment-Wide-18mm-Lens.jpeg"
+                  alt="..."
+                />
+              </div>
+              <div class="card-body m-xs-tb">
+                <h2 class="item-price m-xs-tb">$129.99 USD</h2>
+                <h3 class="card-title m-xs-tb">Moment Wide 18mm Lens</h3>
+              </div>
+              <div class="card-footer m-xs-tb">
+                <div class="product-qty-controls">
+                  <button class="btn btn-primary">
+                    <span class="material-icons-outlined"> remove </span>
+                  </button>
+                  <div class="qty">1</div>
+                  <button class="btn btn-primary">
+                    <span class="material-icons-outlined"> add </span>
+                  </button>
+                </div>
+                <button class="btn btn-secondary card-btn m-sm-t">
+                  Move to wishlist
+                </button>
+                <button class="btn btn-secondary outlined card-btn m-sm-t">
+                  Remove form cart
+                </button>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header m-xs-tb">
+                <img
+                  class="card-img m-xs-tb"
+                  src="../assets/product/gimbals/Zhiyun-CRANE-2S.jpeg"
+                  alt="..."
+                />
+              </div>
+              <div class="card-body m-xs-tb">
+                <h2 class="item-price m-xs-tb">$599.00 USD</h2>
+                <h3 class="card-title m-xs-tb">
+                  Zhiyun CRANE 2S Camera Gimbal
+                </h3>
+              </div>
+              <div class="card-footer m-xs-tb">
+                <div class="product-qty-controls">
+                  <button class="btn btn-primary">
+                    <span class="material-icons-outlined"> remove </span>
+                  </button>
+                  <div class="qty">1</div>
+                  <button class="btn btn-primary">
+                    <span class="material-icons-outlined"> add </span>
+                  </button>
+                </div>
+                <button class="btn btn-secondary card-btn m-sm-t">
+                  Move to wishlist
+                </button>
+                <button class="btn btn-secondary outlined card-btn m-sm-t">
+                  Remove form cart
+                </button>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header m-xs-tb">
+                <img
+                  class="card-img m-xs-tb"
+                  src="../assets/product/drones/DJI-Mavic-3.jpeg"
+                  alt="..."
+                />
+              </div>
+              <div class="card-body m-xs-tb">
+                <h2 class="item-price m-xs-tb">$2,199.00 USD</h2>
+                <h3 class="card-title m-xs-tb">DJI Mavic 3</h3>
+              </div>
+              <div class="card-footer m-xs-tb">
+                <div class="product-qty-controls">
+                  <button class="btn btn-primary">
+                    <span class="material-icons-outlined"> remove </span>
+                  </button>
+                  <div class="qty">1</div>
+                  <button class="btn btn-primary">
+                    <span class="material-icons-outlined"> add </span>
+                  </button>
+                </div>
+                <button class="btn btn-secondary card-btn m-sm-t">
+                  Move to wishlist
+                </button>
+                <button class="btn btn-secondary outlined card-btn m-sm-t">
+                  Remove form cart
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="cart-details">
+            <div class="cart-detail-card">
+              <h2 class="text-base m-sm-tb">Price Details</h2>
+              <div class="m-sm-tb">
+                <span>Price (3 item)</span>
+                <span>$2927.99 USD</span>
+              </div>
+              <div class="m-sm-tb">
+                <span>Discount</span>
+                <span>- $50.00 USD</span>
+              </div>
+              <div class="m-sm-tb">
+                <span>Delivery Charges</span>
+                <span>$20.00 USD</span>
+              </div>
+              <h2 class="text-base m-sm-tb">
+                <span>Total Amount</span>
+                <span>$2897.99 USD</span>
+              </h2>
+              <p class="text-sm text-gray text-center m-xs-tb">
+                You will save $99.99 USD on this order
+              </p>
+              <button class="btn btn-primary m-xs-tb">PLACE ORDER</button>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
